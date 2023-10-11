@@ -1,0 +1,123 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    background-color: #2B78E4;
+    padding:20px;
+    border:2px solid black;
+}
+.nav-right{
+    display:flex;
+    align-items: center;
+    width:40%;
+    justify-content: space-around;
+}
+
+.nav-right a{
+    color:white;
+    border-right: 1px solid black;
+    padding-right:5%;
+}
+
+.nav-right a:nth-child(4){
+    border:none;
+}
+
+#cartIcon{
+    width:30px;
+}
+input{
+    border-radius:20px;
+    height:20px;
+}
+
+.main{
+    padding:20px;
+    width:60%;
+    margin:0px auto;
+    border:2px solid black;
+}
+
+.featuredProduct{
+    padding-bottom:20px;
+    margin-bottom: 20px;;
+    border-bottom:2px solid black;
+}
+
+#goldenSword{
+    width:100%;
+}
+.swordDescription{
+    margin:15px 0px;
+}
+button{
+    background-color: #6AA84F;
+    color:white;
+    padding:5px 10px;
+    box-shadow: 2px 3px black;
+    margin: 10px 0px;
+}
+h2{
+    font-size: 32px;
+}
+h3{
+    font-size: 28px;
+}
+
+.products{
+    display:flex;
+    justify-content: space-between;
+}
+.sword{
+    border:2px solid black;
+    width: 15%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.sword img{
+    height:200px;
+}
+
+.footer{
+    border:2px solid black;
+    padding:20px;
+    text-align: center;
+    color: white;
+    background-color: #2B78E4;
+}
+
+
+.popUp{
+    border:1px solid black;
+    width:200px;
+    border-radius: 20px;
+    text-align: center;
+    margin:0px auto;
+    background-color: rgb(200, 193, 193);
+    display:none;
+}
+
+.popUp button{
+    border:none;
+    box-shadow: none;
+    background-color: rgb(200, 193, 193);
+    color:black;
+    padding:0px 10px;
+    margin: 0px;
+}
+
+.popUp p{
+    padding-bottom: 10px;
+    border-bottom:1px solid black;
+}
+#border{
+    border-right:1px solid black;
+}

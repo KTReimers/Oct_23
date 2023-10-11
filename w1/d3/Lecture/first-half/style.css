@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid red;
+    padding: 20px;
+}
+.row{
+    border: 2px solid green;
+    height: 1000px;
+    padding: 20px;
+    margin-bottom: 20px;
+    /* display:flex;
+    flex-direction:column-reverse;
+    justify-content: space-evenly;
+    align-items:center; */
+}
+
+.red, .blue, .green{
+    width: 200px;
+    height: 200px;
+    /* display:inline-block; */
+}
+
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+.green{
+    background-color: green;
+}
+

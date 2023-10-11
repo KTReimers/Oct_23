@@ -1,0 +1,26 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.container{
+    width:80%;
+    border:2px solid black;
+    display:flex;
+    flex-direction: column-reverse;
+}
+
+.red, .blue, .yellow{
+    width:200px;
+    height:200px;
+}
+.red{
+    background-color: red;
+}
+.blue{
+    background: blue;
+}
+.yellow{
+    background-color: yellow;
+    order:-1;
+}

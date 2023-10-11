@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <h1 onclick="alert('You clicked on the Title')">Title goes here!</h1>
+            <form action="#" onsubmit="bgChange(event)">
+                <label>color:</label>
+                <input type="text" id="formInput">
+                <input type="submit" value="submit">
+            </form>
+            <button onclick="changeText(this)">Sign in</button>
+            <!-- <button onclick="changeText(this)">Hello</button> -->
+        </div>
+        <h3 onmouseover="showImg()" onmouseout="byeImg()">Hover for a surprise</h3>
+        <img id="dwight" src="./images/belschnickle.png" alt="Office">
+
+        <p>number of likes <span id="one">0</span></p>
+        <button onclick="like('one')">Add Like</button>
+
+        <p>number of likes <span id="two">0</span></p>
+        <button onclick="like('two')">Add Like</button>
+
+        <p>number of likes <span id="three">0</span></p>
+        <button onclick="like('three')">Add Like</button>
+    </div>
+
+
+    <!-- <script src="script.js"></script> -->
+</body>
+</html>
