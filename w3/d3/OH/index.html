@@ -11,17 +11,14 @@
 
 <body>
     <div class="container">
-
-        <h1>My Journal</h1>
-        <form>
+        <h1 onclick ="hide(this)" >My Journal</h1>
+        <form onsubmit="addEntry(event)">
             <textarea name="" id="" cols="30" rows="20">
             </textarea>
             <input type="submit" value="Add entry">
-        
         </form>
-
+        <div class="entries"></div>
     </div>
-
 </body>
 
 </html>
