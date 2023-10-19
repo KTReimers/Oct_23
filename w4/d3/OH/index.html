@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Pokemon Api!!!</h1>
+        <p>Fetch pokemon</p>
+        <form action="#" onsubmit="chooseYou(event)">
+            <input type="text" id="pokeName">
+            <button>Fetch</button>
+        </form>
+        <h3>Or choose how many to get</h3>
+        <form action="#" onsubmit="getPokemon(event)">
+            <input type="number" id="number" onchange="addNum(this)">
+            <button>Get <span></span> pokemon</button>
+        </form>
+        <div class="pokemon"></div>
+    </div>
+</body>
+</html>
