@@ -56,3 +56,20 @@ ul{
     gap:20px;
     background-color: aqua;
 }
+
+
+
+@media(max-width:480px){
+    .nav-bar{
+        flex-direction: column;
+    }
+    .nav-right{
+        /* width:100%; */
+        flex-direction: column;
+        align-items: center;
+        display:none;
+    }
+    img{
+        display:inline-block;
+    }
+}
